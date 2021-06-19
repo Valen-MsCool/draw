@@ -2,7 +2,7 @@ var mouseEvent = "empty";
 var last_position_of_x, last_position_of_y;
 var width = screen.width;
 var newwidth = screen.width-70;
-var newheight = screen.height-500;
+var newheight = screen.height-400;
 if(width < 992){
 document.getElementById("myCanvas").width=newwidth;
 document.getElementById("myCanvas").height=newheight;
